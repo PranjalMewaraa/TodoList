@@ -7,7 +7,7 @@ import {
   PhoneAuthProvider,
   signInWithCredential,
 } from "../firebase";
-import Dashboard from "./component/dash";
+import Dashboard from "./component/Dash";
 
 function App() {
   const [verificationId, setVerificationId] = useState("");
@@ -126,7 +126,15 @@ function App() {
             >
               Developing applications
             </code>{" "}
-            for mobile and web environments
+            for mobile and web environments. Here is my portfolio{" "}
+            <span>
+              <a
+                href="https://pranjalkachhawaha.netlify.app/"
+                className="text-sky-500 underline"
+              >
+                Click Here
+              </a>
+            </span>
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <input
